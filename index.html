@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LerkWare - Premium Rust Internal Software</title>
+    <title>Lerkware</title>
+    <script>
+      let dots = 0;
+      setInterval(() => {
+        dots = (dots + 1) % 4;
+        document.title = 'Lerkware' + '.'.repeat(dots);
+      }, 500);
+    </script>
 
     <meta
       name="description"
