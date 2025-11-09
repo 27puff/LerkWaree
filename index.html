@@ -31,55 +31,10 @@
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <style>
-      body {
-        margin: 0;
-        background-color: #0b0b0b;
-        color: #00bfff;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 3rem;
-        margin-bottom: 0.5rem;
-        color: #00ffcc;
-      }
-
-      p {
-        font-size: 1.2rem;
-        color: #bbb;
-        max-width: 600px;
-      }
-
-      .logo {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-        border: 2px solid #00bfff;
-      }
-
-      footer {
-        position: absolute;
-        bottom: 15px;
-        font-size: 0.9rem;
-        color: #666;
-      }
-    </style>
   </head>
 
   <body>
-    <img src="/favicon.ico" alt="LerkWare Logo" class="logo" />
-    <h1>LerkWare</h1>
-    <p>Premium Rust Internal Software — currently in private development.</p>
-    <p>Exclusive 25-slot access coming soon.</p>
-
-    <footer>© 2025 LerkWare. All rights reserved.</footer>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
