@@ -27,15 +27,7 @@ const Index = () => {
       {/* Hero Section */}
       <main className="container mx-auto px-6 py-20">
         <div className="mx-auto max-w-3xl space-y-8 text-center">
-          <div className="flex justify-center mb-8 animate-scale-in">
-            <img 
-              src={logo} 
-              alt="LerkWare Logo" 
-              className="h-32 w-32 animate-float"
-            />
-          </div>
-
-          <Badge 
+          <Badge
             variant="secondary" 
             className="text-xs uppercase tracking-wider animate-fade-in hover:scale-110 transition-transform duration-300"
           >
@@ -55,7 +47,7 @@ const Index = () => {
             <Button
               asChild
               size="lg"
-              className="group relative overflow-hidden bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] animate-pulse-glow"
+              className="group bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
             >
               <a 
                 href="https://discord.gg/amW5TNAdQE" 
@@ -63,9 +55,8 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
-                <span className="relative z-10">Early Access</span>
-                <ExternalLink className="h-4 w-4 relative z-10 group-hover:translate-x-1 transition-transform duration-300" />
-                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700" />
+                <span>Join Discord!</span>
+                <ExternalLink className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
               </a>
             </Button>
           </div>
